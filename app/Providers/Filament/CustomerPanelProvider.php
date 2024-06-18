@@ -53,7 +53,7 @@ class CustomerPanelProvider extends PanelProvider
             //->brandLogoHeight('2rem')
             
             ->colors([
-                'primary' => "#7534e5",
+                'primary' => "#047bdc",
                 'danger' => Color::Rose,
                 'gray' => '#000000', //Color::Gray,
                 'info' => Color::Blue,

@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>LatifData - Your ultimate app to settle your bills with sweetness.</title>
-    <meta name="description" content="If you want the best app to buy affordable MTN, Glo, Airtel and 9Mobile Data and Airtime, LatifData is your best friend." />
+    <title>DreamSub - Your ultimate app to settle your bills with sweetness.</title>
+    <meta name="description" content="If you want the best app to buy affordable MTN, Glo, Airtel and 9Mobile Data and Airtime, DreamSub is your best friend." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset("assets/images/whitelogo.png") }}" />
 
@@ -49,7 +49,7 @@
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="{{ url("/") }}">
                                 <img src="{{ asset("/assets/images/whitelogo.png") }}" style="border-radius: 10px; transform:scale(.6);" alt="#">
-                                <!-- <span style="color:#ffffff; font-weight:700; font-size:29px;">LatifData</span> -->
+                                <!-- <span style="color:#ffffff; font-weight:700; font-size:29px;">DreamSub</span> -->
 
                             </a>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
@@ -96,7 +96,7 @@
                         <h4>The sweetest App to  Settle Your</h4>
                         <h1>Daily Bills and <br>
                             Enjoy the Process</h1>
-                        <p>LatifData gives you the sweetest experience while topping up your DATA Bundles, Airtime, Electricity Bills, and so on.
+                        <p>DreamSub gives you the sweetest experience while topping up your DATA Bundles, Airtime, Electricity Bills, and so on.
                         </p>
                         <div class="button">
                             <a href="{{url('app/register')}}" class="btn ">Get started now</a>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="content">
-                        <h3 class="heading wow fadeInUp" data-wow-delay=".5s"><span>Core Features</span>LatifData is Designed & Built
+                        <h3 class="heading wow fadeInUp" data-wow-delay=".5s"><span>Core Features</span>DreamSub is Designed & Built
                             
                             For<br> Your Daily Bill Settling</h3>
                         <!-- Start Single Feature -->
@@ -142,7 +142,7 @@
                                 <i class="lni lni-pencil-alt"></i>
                             </div>
                             <h4>Affordable Products</h4>
-                            <p>With LatifData, you won't need to break your bank to settle your day-to-day bills. Infact, you can enjoy our products with as low as <b>N100</b></p>
+                            <p>With DreamSub, you won't need to break your bank to settle your day-to-day bills. Infact, you can enjoy our products with as low as <b>N100</b></p>
                         </div>
                         <!-- End Single Feature -->
                         <!-- Start Single Feature -->
@@ -151,7 +151,7 @@
                                 <i class="lni lni-vector"></i>
                             </div>
                             <h4>Earn Cashback</h4>
-                            <p>LatifData gives you cashback on every successful transaction you make; what a sweet experience!</p>
+                            <p>DreamSub gives you cashback on every successful transaction you make; what a sweet experience!</p>
                         </div>
                         <!-- End Single Feature -->
                     </div>
@@ -169,7 +169,7 @@
                     <div class="section-title">
                         <h3 class="wow zoomIn" data-wow-delay=".2s">What we offer</h3>
                         <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Services</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">LatifData is packed with sweet services and features that you need to boost your every-day life.</p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">DreamSub is packed with sweet services and features that you need to boost your every-day life.</p>
                     </div>
                 </div>
             </div>
@@ -179,7 +179,7 @@
              
                         <h4 class="text-title" style="border-left:9px solid #fe5006; border-radius:9px; padding-left:10px;">MTN, Glo, Airtel, and 9Mobile Data</h4>
                             <img src="{{ asset("/assets/images/networks-imageb.png") }}" style="height:180px;" alt="Networks">
-                        <p>With a few clicks, you can buy affordable data bundles on LatifData - with no stress at all.</p>
+                        <p>With a few clicks, you can buy affordable data bundles on DreamSub - with no stress at all.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
@@ -187,7 +187,7 @@
                         
                         <h4 class="text-title">MTN, Glo, Airtel, and 9Mobile Airtime</h4>
                         <img src="{{ asset("/assets/images/networks-imageb.png") }}" style="height:180px;" alt="Networks">
-                        <p>LatifData takes away the stress of typing long numbers when trying to get airtime on your phone.</p>
+                        <p>DreamSub takes away the stress of typing long numbers when trying to get airtime on your phone.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".6s">
@@ -203,7 +203,7 @@
                         
                         <h4 class="text-title">Electricity Bill Payment</h4>
                         <img src="{{ asset("/assets/images/electricity-image.png") }}" style="height:180px;" alt="Networks">
-                        <p>On the LatifData App, just tap 2 to 3 buttons and get your electricity meter loaded ASAP!</p>
+                        <p>On the DreamSub App, just tap 2 to 3 buttons and get your electricity meter loaded ASAP!</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
@@ -211,7 +211,7 @@
                         
                         <h4 class="text-title">WAEC, JAMB, and NABTEB Pins</h4>
                         <img src="{{ asset("/assets/images/exams-image.png") }}" style="height:180px;" alt="Networks">
-                        <p>Just login to your LatifData App and purchase your exam pins; without sweating a bit.</p>
+                        <p>Just login to your DreamSub App and purchase your exam pins; without sweating a bit.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".6s">
@@ -348,7 +348,7 @@
                             <a href="{{ url("javascript:void(0)") }}" class="btn">Chat our rep <i
                                     class="lni lni-arrow-right"></i></a>
                         </div>
-                        <p class="no-card">You will have a website and app like LatifData</p>
+                        <p class="no-card">You will have a website and app like DreamSub</p>
                     </div>
                     <!-- End Single Table-->
                 </div>
@@ -367,7 +367,7 @@
                             <img class="shape1" src="{{ asset("/assets/images/video/shape1.svg") }}" alt="#">
                             <img class="shape2" src="{{ asset("/assets/images/video/shape2.svg") }}" alt="#">
                             <div class="section-title">
-                                <span class="wow zoomIn" data-wow-delay=".2s">LatifData is your best friend that you will always love!</span>
+                                <span class="wow zoomIn" data-wow-delay=".2s">DreamSub is your best friend that you will always love!</span>
                                 <h2 class="wow fadeInUp" data-wow-delay=".4s">Watch Our intro video</h2>
                                 <p class="wow fadeInUp" data-wow-delay=".6s">
                                     Top up your airtime, purchase internet data bundles, renew your cable subscriptions, and even buy examination pins like WAEC and JAMB with just a few taps. Our secure and reliable platform ensures that your transactions are processed swiftly, giving you peace of mind every time.
@@ -498,7 +498,7 @@
                     <div class="section-title">
                         <h3 class="wow zoomIn" data-wow-delay=".2s">Customer Reviews</h3>
                         <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Testimonials</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Our customers are vouching for LatifData everywhere. See what they have say!</p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Our customers are vouching for DreamSub everywhere. See what they have say!</p>
                     </div>
                 </div>
             </div>
@@ -511,7 +511,7 @@
                                 <i class="lni lni-quotation"></i>
                             </div>
                             <div class="text">
-                                <p>“I used to dread the hassle of buying airtime and data bundles, especially during busy days. Since I started using the LatifData app, it's been a game-changer! Quick, convenient, and reliable. I can't imagine going back to the old way.”</p>
+                                <p>“I used to dread the hassle of buying airtime and data bundles, especially during busy days. Since I started using the DreamSub app, it's been a game-changer! Quick, convenient, and reliable. I can't imagine going back to the old way.”</p>
                             </div>
                             <div class="author">
                                 <img src="https://via.placeholder.com/100x100" alt="#">
@@ -554,7 +554,7 @@
                             </div>
                             <div class="text">
                                 <p>
-                                    “I was skeptical at first, but after trying out the LatifData app, I was pleasantly surprised by how smooth and hassle-free it is. Now, I can pay my bills from the comfort of my home, without having to stand in long queues or deal with paper receipts. Thank you for simplifying my life!”
+                                    “I was skeptical at first, but after trying out the DreamSub app, I was pleasantly surprised by how smooth and hassle-free it is. Now, I can pay my bills from the comfort of my home, without having to stand in long queues or deal with paper receipts. Thank you for simplifying my life!”
                                 </p>
                             </div>
                             <div class="author">
@@ -598,7 +598,7 @@
                             </div>
                             <div class="text">
                                 <p>“
-                                    I've tried several bill payment apps in the past, but none have impressed me as much as this LatifData ooo. It's user-friendly, fast, and offers a wide range of services. Whether it's topping up my airtime or renewing my DSTV subscription, this app has become my go-to solution.
+                                    I've tried several bill payment apps in the past, but none have impressed me as much as this DreamSub ooo. It's user-friendly, fast, and offers a wide range of services. Whether it's topping up my airtime or renewing my DSTV subscription, this app has become my go-to solution.
                                 ”</p>
                             </div>
                             <div class="author">
@@ -684,7 +684,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">LatifData Faq</h3>
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">DreamSub Faq</h3>
                         <h2 class="wow fadeInUp" data-wow-delay=".4s"> frequently asked questions</h2>
                         <p class="wow fadeInUp" data-wow-delay=".6s">Explore Our Knowledge Base: Answers to Frequently Asked Questions About Our Services and Products.</p>
                     </div>
@@ -713,7 +713,7 @@
                             <h2 class="accordion-header" id="heading2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    <span class="title">How quickly are bill payments processed on LatifData?</span><i
+                                    <span class="title">How quickly are bill payments processed on DreamSub?</span><i
                                         class="lni lni-plus"></i>
                                 </button>
                             </h2>
@@ -754,7 +754,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
                                     <span class="title">
-                                        Is there a limit to the number or amount of bills I can pay through the LatifData app?
+                                        Is there a limit to the number or amount of bills I can pay through the DreamSub app?
                                     </span><i class="lni lni-plus"></i>
                                 </button>
                             </h2>
@@ -780,7 +780,7 @@
                                 data-bs-parent="#accordionExample2">
                                 <div class="accordion-body">
                                     <p>
-                                        Absolutely! LatifData allows you to pay bills not only for yourself but also for others. Whether you're helping out a family member or covering a friend's expenses, you can easily initiate transactions on their behalf.
+                                        Absolutely! DreamSub allows you to pay bills not only for yourself but also for others. Whether you're helping out a family member or covering a friend's expenses, you can easily initiate transactions on their behalf.
                                     </p>
                                    
                                 </div>
@@ -930,7 +930,7 @@
                 <div class="inner-content">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
-                            <p class="copyright-text">© 2024  LatifData - All Rights Reserved</p>
+                            <p class="copyright-text">© 2024  DreamSub - All Rights Reserved</p>
                         </div>
                         <div class="col-lg-6 col-md-6 col-12">
                             <p class="copyright-owner">Designed and Developed by <a href="https://adeotidigital.com/"

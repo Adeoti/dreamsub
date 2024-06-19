@@ -49,7 +49,7 @@ class AdminPanelProvider extends PanelProvider
 
             ->colors([
                 //'primary' => Color::Amber,
-                'primary' => "#7534e5",
+                'primary' => "#047bdc",
                 'danger' => Color::Rose,
                 'gray' => '#000000',//Color::Gray,
                 'info' => Color::Blue,

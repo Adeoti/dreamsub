@@ -861,14 +861,14 @@
                                     <li><a href="{{ url("javascript:void(0)") }}"><i class="lni lni-youtube"></i></a></li>
                                 </ul>
                                 <p>
-                                    <b>Address: </b> 5, Bako, Apata-Rd, Ibadan
+                                    <b>Address: </b> 18, Obanta, Orile, Lagos
                                 </p>
                                 <p>
-                                    <b>Phone No.: </b> 07045157271 
+                                    <b>Phone No.: </b> 08137309501 
                                 </p>
 
                                 <p>
-                                    <b>Email: </b> alhajaapeke@gmail.com
+                                    <b>Email: </b> ayomideahmmed721@gmail.com
                                 </p>
                             </div>
                             <!-- End Single Widget -->

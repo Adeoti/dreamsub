@@ -6,7 +6,7 @@ use App\Models\Expense;
 use App\Models\Saving;
 use App\Models\User;
 use App\Models\PaymentIntegration;
-
+use App\Models\SiteSettings;
 use Illuminate\Support\Facades\Http;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
@@ -88,6 +88,8 @@ class StatsOverview extends BaseWidget
         $total_users_balance = User::sum('balance');
         $total_users_cashback_balance = User::sum('cashback_balance');
 
+        $site_name = SiteSettings::first()->name;
+
         
 
 
@@ -109,7 +111,7 @@ class StatsOverview extends BaseWidget
                 -> descriptionColor('info')
                 -> descriptionIcon('heroicon-m-user-plus')
             ,
-            Stat::make('LatifData Users', User::count()) 
+            Stat::make($site_name.' Users', User::count()) 
                 -> chart([7, 1, 4, 30, 15, 4, 2])
                 -> color('primary'),
 

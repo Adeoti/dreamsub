@@ -110,8 +110,8 @@ class CreateAutomatedAccount implements ShouldQueue
                 "contractCode" => $contractCode,
                 "customerEmail" => $theUser->email,
                 "customerName" => $theUser->name,
-                "bvn" => "22206510323",
-                "nin" => "66376968325",
+                "bvn" => "22440909518",
+                "nin" => "31254914574",
                 "getAllAvailableBanks" => true
             ];
             

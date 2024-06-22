@@ -93,10 +93,15 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="hero-content">
-                        <h4>The sweetest App to  Settle Your</h4>
-                        <h1>Daily Bills and <br>
-                            Enjoy the Process</h1>
-                        <p>DreamSub gives you the sweetest experience while topping up your DATA Bundles, Airtime, Electricity Bills, and so on.
+                        <h4>The best App you won't</h4>
+                        <h1>want to ever<br>
+                            miss on your phone</h1>
+                        <p>
+                            
+                            
+                            DreamSub.ng is a great VTU Portal that facilitates the purchase of Data and airtime at your comfort zone.
+                            
+                            
                         </p>
                         <div class="button">
                             <a href="{{url('app/register')}}" class="btn ">Get started now</a>
@@ -850,7 +855,7 @@
                                         <img src="{{ asset("/assets/images/whitelogo.png") }}" style="border-radius: 10px; transform:scale(.6);" alt="#">
                                     </a>
                                 </div>
-                                <p>Making the world a better place through seamless bill payment.</p>
+                                <p>Buy Data and Airtime at your own pace, and be happy.</p>
                                 <h4 class="social-title">Follow Us On:</h4>
                                 <ul class="social">
                                     <li><a href="{{ url("javascript:void(0)") }}"><i class="lni lni-facebook-filled"></i></a></li>

@@ -52,14 +52,10 @@ class UpgradeLevel extends Component implements HasForms
                     ->options([
                         'agent' => 'AGENT',
                         'special' => 'SPECIAL',
-                        'api' => 'API',
-                        'portal' => 'Own a VTU Website like SweetBill'
                     ])
                     ->descriptions([
                         'agent' => "You will be charged $this->ngn".number_format(SiteSettings::first()->agent_charges,2).".",
                         'special' => "You will be charged $this->ngn".number_format(SiteSettings::first()->special_charges,2).".",
-                        'api' => "You will be charged $this->ngn".number_format(SiteSettings::first()->api_charges,2).".",
-                        'portal' => "You will be charged $this->ngn".number_format(SiteSettings::first()->portal_dev_charges,2)."."
                     ]),
 
                     TextInput::make('transaction_pin')

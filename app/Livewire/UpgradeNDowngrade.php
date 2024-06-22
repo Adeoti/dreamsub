@@ -51,7 +51,6 @@ class UpgradeNDowngrade extends Component implements HasForms
                             'primary' => 'Primary',
                             'agent' => 'Agent',
                             'special' => 'Special',
-                            'api' => 'API'
                         ])
                         ->required()
                         ->columnSpan(1),

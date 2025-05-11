@@ -147,10 +147,10 @@ class AirtimeController extends Controller
                 break;
 
             case 'twins10':
-                return $this->buyAirtimeFromTwins10andCo($userId, $requestId, $networkId, $p_amount, $total_amount, $total_cashback, $phone, $bypass, $vendor);
+                return ;
 
             case 'datalight':
-                return $this->buyAirtimeFromTwins10andCo($userId, $requestId, $networkId, $p_amount, $total_amount, $total_cashback, $phone, $bypass, $vendor);
+                return ;
         }
     }
 
@@ -161,15 +161,7 @@ class AirtimeController extends Controller
         $user = User::find($userId);
 
         switch ($airtime_vendor) {
-            case 'twins10':
-                $auth_route = "https://twins10.com/api/user";
-                $pass_n_username = 'Adeoti360:7DP75syvXML$$Ade#';
-                break;
-
-            case 'datalight':
-                $auth_route = "https://datalight.ng/api/user";
-                $pass_n_username = 'SweetBill:7DP75syvXML$$Ade#';
-                break;
+           
         }
 
         $response = Http::withHeaders([

@@ -18,7 +18,7 @@ class DataController extends Controller
         $request->validate([
             'data_id' => 'required|integer',
             'phone' => 'required|string',
-            'requestId' => 'required|string|min:10' 
+            'requestId' => 'required|string|min:10'
         ]);
 
         // Extract headers
@@ -112,9 +112,9 @@ class DataController extends Controller
                 break;
             case 'twins10':
             case 'datalight':
-                return $this->buyDataFromVendor($user, $requestId, $data_id, $amount, $cashback, $phone, $vendor);
+                return;
             default:
-                return response()->json(['error' => 'Invalid vendor'], 400);
+                return;
         }
     }
 
@@ -122,14 +122,6 @@ class DataController extends Controller
     {
         $auth_route = $credentials = "";
         switch ($vendor) {
-            case 'twins10':
-                $auth_route = "https://twins10.com/api/user";
-                $credentials = 'Adeoti360:7DP75syvXML$$Ade#';
-                break;
-            case 'datalight':
-                $auth_route = "https://datalight.ng/api/user";
-                $credentials = 'SweetBill:7DP75syvXML$$Ade#';
-                break;
         }
 
         // Authenticate with vendor API

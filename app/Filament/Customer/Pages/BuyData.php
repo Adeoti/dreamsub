@@ -422,16 +422,7 @@ class BuyData extends Page implements HasForms
        
        $auth_route = $pass_n_username = "";
 
-            switch($vendor){
-                case 'twins10':
-                    $auth_route = "https://twins10.com/api/user";
-                    $pass_n_username = 'Adeoti360:7DP75syvXML$$Ade#';
-                break;
-                case 'datalight':
-                    $auth_route = "https://datalight.ng/api/user";
-                    $pass_n_username = 'SweetBill:7DP75syvXML$$Ade#';
-                break;
-            }
+         
        
         $response = Http::withHeaders([
             'Authorization' => 'Basic ' . base64_encode($pass_n_username),
@@ -867,14 +858,7 @@ class BuyData extends Page implements HasForms
 
                     $this->form->fill();
 
-                            // switch($data_vendor){
-                            //     case 'twins10':
-                            //         $this->buyDataFromTwins10andCo($requestId,$data_id,$amount,$cashback,$phone_number,$validate_phone_number,$data_vendor);
-                            //     break;
-                            //     case 'datalight':
-                            //         $this->buyDataFromTwins10andCo($requestId,$data_id,$amount,$cashback,$phone_number,$validate_phone_number,$data_vendor);
-                            //     break;
-                            // }
+                          
 
                         
                         } else {
@@ -923,14 +907,7 @@ class BuyData extends Page implements HasForms
         );
 
          $this->form->fill();
-                // switch($data_vendor){
-                //     case 'twins10':
-                //         $this->buyDataFromTwins10andCo($requestId,$data_id,$amount,$cashback,$phone_number,$validate_phone_number,$data_vendor);
-                //     break;
-                //     case 'datalight':
-                //         $this->buyDataFromTwins10andCo($requestId,$data_id,$amount,$cashback,$phone_number,$validate_phone_number,$data_vendor);
-                //     break;
-                // }
+              
                     }
 
 
